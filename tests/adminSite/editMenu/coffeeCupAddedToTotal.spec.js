@@ -10,5 +10,5 @@ test(`New coffee can be added to the  Menu`, async ({ }) => {
 
   await allure.epic('Coffee Cart');
   await allure.feature('Menu');
-  await allure.feature('Admin adds a new coffee to the Menu')
+  await allure.story('Admin adds a new coffee to the Menu');
 });

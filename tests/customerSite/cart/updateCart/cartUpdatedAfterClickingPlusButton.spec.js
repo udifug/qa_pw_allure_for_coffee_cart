@@ -14,7 +14,7 @@ test('Cart updated correctly after clicking plus for drinks', async ({
 
   await allure.epic('Coffee Cart');
   await allure.feature('Cart');
-  await allure.story('User increases coffee quantity in cart')
+  await allure.story('User increases coffee quantity in cart');
 
   const oneCappuccinoPrice = priceFormatStr(COFFEE_PRICES.cappuccino);
   const twoCappuccinoPrice = priceFormatStr(COFFEE_PRICES.cappuccino * 2);

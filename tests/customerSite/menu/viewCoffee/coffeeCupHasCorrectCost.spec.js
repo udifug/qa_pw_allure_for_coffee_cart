@@ -19,7 +19,7 @@ testParameters.forEach(({ coffee, price }) => {
 
     await allure.epic('Coffee Cart');
     await allure.feature('Menu');
-    await allure.story('User sees the correct price of each coffee')
+    await allure.story('User sees the correct price of each coffee');
 
     const priceStr = priceFormatStr(price);
 

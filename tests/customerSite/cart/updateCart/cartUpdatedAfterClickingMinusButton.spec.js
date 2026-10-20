@@ -13,7 +13,7 @@ test('Cart updated correctly after clicking minus for drinks', async ({
 
   await allure.epic('Coffee Cart');
   await allure.feature('Cart');
-  await allure.story('User removes coffee from cart')
+  await allure.story('User removes coffee from cart');
 
   await menuPage.open();
   await menuPage.clickCoffeeCup(COFFEE_NAMES.cappuccino);
