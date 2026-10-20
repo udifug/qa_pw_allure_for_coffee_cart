@@ -21,6 +21,7 @@ testParameters.forEach(({ coffee, price }) => {
     await allure.suite('Cart');
     await allure.subSuite('Add coffee to cart');
     await allure.severity('critical');
+
     await allure.epic('Coffee Cart');
     await allure.feature('Cart');
     await allure.story('User adds coffee to cart')

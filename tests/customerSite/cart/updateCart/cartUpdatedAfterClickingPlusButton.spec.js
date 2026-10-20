@@ -11,6 +11,7 @@ test('Cart updated correctly after clicking plus for drinks', async ({
   await allure.suite('Cart');
   await allure.subSuite('Increase coffee quantity in cart');
   await allure.severity('normal');
+
   await allure.epic('Coffee Cart');
   await allure.feature('Cart');
   await allure.story('User increases coffee quantity in cart')

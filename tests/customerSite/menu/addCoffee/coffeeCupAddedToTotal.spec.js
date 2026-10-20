@@ -17,6 +17,7 @@ testParameters.forEach(({ coffee, price }) => {
     await allure.suite('Menu');
     await allure.subSuite('Total cost update');
     await allure.severity('critical');
+
     await allure.epic('Coffee Cart');
     await allure.feature('Menu');
     await allure.story('User sees the updated total cost after choosing a coffee')

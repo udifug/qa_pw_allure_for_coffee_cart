@@ -10,6 +10,7 @@ test('Cart updated correctly after clicking minus for drinks', async ({
   await allure.suite('Cart');
   await allure.subSuite('Remove coffee from cart');
   await allure.severity('normal');
+
   await allure.epic('Coffee Cart');
   await allure.feature('Cart');
   await allure.story('User removes coffee from cart')
