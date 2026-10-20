@@ -25,4 +25,7 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
     },
   ],
+
+  // Allure reporter
+  reporter: [['list'], ['allure-playwright']],
 });
